@@ -1,11 +1,5 @@
 import alfy from 'alfy'
-<<<<<<< Updated upstream
-
-alfy.output([
-	{
-		title: alfy.input
-=======
-import { removeMaj } from "./helpers.js";
+import { cssInJSToRegular } from "./helpers.js";
 
 alfy.output([
 	{
@@ -17,9 +11,5 @@ alfy.output([
       "copy": cssInJSToRegular(alfy.input),
       "largetype": cssInJSToRegular(alfy.input)
     }
->>>>>>> Stashed changes
 	},
-	{
-		title: 'Rainbow'
-	}
 ]);
